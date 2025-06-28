@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+<body>
+  <section class="heading">
+  <header id="header">
+    <h1 class="header-title">Do you want to buy a real dinosaur?</h1>
+    <p class="description">All dinosaurs are completely safe to keep within city limits under surveillance.</p>
+    <img src="https://images.pexels.com/photos/161959/prehistoric-times-urtier-museum-exhibit-161959.jpeg" alt="Dinosaur" id="header-img" loading="lazy">
+
+    <nav id="nav-bar">
+      <a href="#product-video" class="nav-link">Product Video</a>
+      <a href="#products" class="nav-link">Our Dinosaurs</a>
+      <a href="#information" class="nav-link">Information</a>
+    </nav>
+    
+  </header>
+  </section>
+
+  <main>
+    <section id="product-video">
+    <h2>Learn more about dinosaurs with this video!</h2>
+    <iframe 
+      id="video"
+      width="560" 
+      height="315" 
+      src="https://www.youtube.com/embed/RBgFsVN3uR8?si=e113htlRLR66RBXr" 
+      title="YouTube video player" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      referrerpolicy="strict-origin-when-cross-origin" 
+      allowfullscreen></iframe>
+    </section>
+
+    <hr>
+
+    <h2>Our Dinosaurs</h2>
+    <div id="products">
+      <section class="product-section">
+        <h3>Tiny Dinosaur</h3>
+        <p class="description">Price: $400,000</p>
+        <img src="https://images.pexels.com/photos/1319591/pexels-photo-1319591.jpeg" alt="A really tiny dinosaur" class="medium-image">
+      </section>
+
+      <section class="product-section">
+        <h3>Regular Dinosaur</h3>
+        <p class="description">Price: $700,000</p>
+        <img src="https://images.pexels.com/photos/730433/pexels-photo-730433.jpeg" alt="A normal-sized dinosaur" class="medium-image">
+      </section>
+
+      <section class="product-section">
+        <h3>Large Dinosaur</h3>
+        <p class="description">Price: $1,000,000</p>
+        <img src="https://images.pexels.com/photos/410857/pexels-photo-410857.jpeg" class="medium-image" alt="A massive dinosaur">
+      </section>
+    </div>
+
+    <hr>
+
+    <h2 id="information">Information</h2>
+    <ul class="information-list">
+      <li>Dinosaurs must be kept contained at all times or face legal action</li>
+      <li>Contact Bob if there are any issues</li>
+      <li>No refunds</li>
+    </ul>
+
+    <hr>
+
+    <section class="form">
+    <h2>Enter your email for this very official and safe purchase!</h2>
+    <p>There's no turning back</p>
+    <form id="form" action="https://www.freecodecamp.org/email-submit" method="post">
+      <input type="email" id="email" name="email" placeholder="Enter your email address...">
+      <input type="submit" id="submit" value="Submit">
+    </form>
+    </section>
+
+  </main>
+</body>
+
+</html>
